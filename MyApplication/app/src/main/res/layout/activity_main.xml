@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_the_world_of_android"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="aishwarya" />
+
+    <Button
+        android:id="@+id/dialNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dial Number" />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast" />
+
+
+    <Button
+        android:id="@+id/showLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Location" />
+
+    <Button
+        android:id="@+id/openWebPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Web Page" />
+
+    <Button
+        android:id="@+id/viewIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Intent" />
+
+
+    <Button
+        android:id="@+id/LetsGetPro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets Get Pro.." />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Congratulations Aishwarya Bhavsar"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/technology_analyst_at_jp_morgan_chase_co"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
